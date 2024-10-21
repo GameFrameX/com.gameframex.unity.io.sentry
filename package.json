@@ -1,5 +1,5 @@
 {
-  "name": "io.sentry.unity",
+  "name": "com.gameframex.unity.io.sentry",
   "version": "2.2.1",
   "displayName": "Sentry Unity",
   "description": "Sentry SDK for Unity",
