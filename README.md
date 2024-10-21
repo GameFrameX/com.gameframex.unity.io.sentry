@@ -1,3 +1,23 @@
+# 基于`io.sentry.unity` 的二次修改
+
+该库主要服务于 `https://github.com/GameFrameX/GameFrameX` 作为子库使用。
+
+
+# 使用方式(三种方式)
+1. 直接在 `manifest.json` 文件中的`dependencies` 下添加以下内容
+   ```json
+      {"com.gameframex.unity.io.sentry": "https://github.com/GameFrameX/com.gameframex.unity.io.sentry.git"}
+    ```
+2. 在Unity 的`Packages Manager` 中使用`Git URL` 的方式添加库,地址为：https://github.com/GameFrameX/com.gameframex.unity.io.sentry.git
+
+3. 直接下载仓库放置到Unity 项目的`Packages` 目录下。会自动加载识别
+
+# 改动功能
+
+1. 增加`link.xml` 防止代码被裁剪
+
+# 官方文档
+
 <p align="center">
   <a href="https://sentry.io" target="_blank" align="left">
     <img src="https://raw.githubusercontent.com/getsentry/sentry-unity/main/.github/sentry-wordmark-dark-400x119.svg" width="280">
